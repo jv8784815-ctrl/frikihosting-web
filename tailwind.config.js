@@ -39,7 +39,7 @@ export default {
           "radial-gradient(circle at 1px 1px, rgba(124,92,255,0.08) 1px, transparent 0)",
       },
       keyframes: {
-        pulse-node: {
+        "pulse-node": {
           "0%, 100%": { opacity: 1, transform: "scale(1)" },
           "50%": { opacity: 0.55, transform: "scale(0.9)" },
         },
