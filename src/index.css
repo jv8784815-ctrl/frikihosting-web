@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0a0d13;
+  background-image: radial-gradient(circle at 1px 1px, rgba(124, 92, 255, 0.06) 1px, transparent 0);
+  background-size: 22px 22px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #232a3b transparent;
+}
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #232a3b;
+  border-radius: 4px;
+}
+
+:focus-visible {
+  outline: 2px solid #7c5cff;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@layer components {
+  .panel-card {
+    @apply bg-panel border border-border rounded-xl shadow-card;
+  }
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dim text-white font-medium px-4 py-2 rounded-lg transition-colors duration-150 disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply bg-elevated hover:bg-border text-ink border border-border px-4 py-2 rounded-lg transition-colors duration-150;
+  }
+  .input-field {
+    @apply bg-elevated border border-border rounded-lg px-3 py-2 text-sm text-ink placeholder:text-ink-faint focus:border-primary outline-none transition-colors;
+  }
+  .status-dot {
+    @apply inline-block w-2 h-2 rounded-full;
+  }
+}

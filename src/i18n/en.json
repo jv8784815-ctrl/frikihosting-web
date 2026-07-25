@@ -1,0 +1,75 @@
+{
+  "brand": "FrikiHost",
+  "nav": {
+    "dashboard": "Dashboard",
+    "servers": "My servers",
+    "admin": "Admin",
+    "settings": "Settings",
+    "logout": "Log out"
+  },
+  "auth": {
+    "login": "Log in",
+    "register": "Create account",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "welcomeBack": "Welcome back",
+    "createAccount": "Create your account",
+    "loginSubtitle": "Manage your bots and servers from one place.",
+    "registerSubtitle": "Start free with 512 MB RAM and 1 server.",
+    "loginError": "Wrong username or password.",
+    "registerError": "Couldn't create the account."
+  },
+  "dashboard": {
+    "title": "Overview",
+    "subtitle": "Summary of your resources and servers",
+    "totalServers": "Servers",
+    "ramUsed": "RAM allocated",
+    "storage": "Storage",
+    "plan": "Current plan",
+    "newServer": "New server",
+    "noServers": "You don't have any servers yet. Create your first one.",
+    "online": "Online",
+    "offline": "Offline",
+    "starting": "Starting",
+    "crashed": "Crashed"
+  },
+  "server": {
+    "console": "Console",
+    "files": "Files",
+    "settings": "Settings",
+    "start": "Start",
+    "stop": "Stop",
+    "restart": "Restart",
+    "cpu": "CPU",
+    "ram": "RAM",
+    "sendCommand": "Send command",
+    "runtime": "Runtime",
+    "entryFile": "Entry file",
+    "envVars": "Environment variables",
+    "autoRestart": "Auto restart",
+    "upload": "Upload files",
+    "createFolder": "New folder",
+    "save": "Save"
+  },
+  "admin": {
+    "title": "Administration",
+    "users": "Users",
+    "servers": "Global servers",
+    "logs": "System logs",
+    "suspend": "Suspend",
+    "unsuspend": "Reactivate",
+    "limits": "Limits",
+    "role": "Role"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "create": "Create",
+    "delete": "Delete",
+    "loading": "Loading...",
+    "language": "Language"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "brand": "FrikiHost",
+  "nav": {
+    "dashboard": "Painel",
+    "servers": "Meus servidores",
+    "admin": "Administração",
+    "settings": "Configurações",
+    "logout": "Sair"
+  },
+  "auth": {
+    "login": "Entrar",
+    "register": "Criar conta",
+    "username": "Usuário",
+    "email": "E-mail",
+    "password": "Senha",
+    "confirmPassword": "Confirmar senha",
+    "noAccount": "Não tem uma conta?",
+    "hasAccount": "Já tem uma conta?",
+    "welcomeBack": "Bem-vindo de volta",
+    "createAccount": "Crie sua conta",
+    "loginSubtitle": "Gerencie seus bots e servidores em um só lugar.",
+    "registerSubtitle": "Comece grátis com 512 MB de RAM e 1 servidor.",
+    "loginError": "Usuário ou senha incorretos.",
+    "registerError": "Não foi possível criar a conta."
+  },
+  "dashboard": {
+    "title": "Painel geral",
+    "subtitle": "Resumo dos seus recursos e servidores",
+    "totalServers": "Servidores",
+    "ramUsed": "RAM alocada",
+    "storage": "Armazenamento",
+    "plan": "Plano atual",
+    "newServer": "Novo servidor",
+    "noServers": "Você ainda não tem servidores. Crie o primeiro.",
+    "online": "Online",
+    "offline": "Desligado",
+    "starting": "Iniciando",
+    "crashed": "Caiu"
+  },
+  "server": {
+    "console": "Console",
+    "files": "Arquivos",
+    "settings": "Configurações",
+    "start": "Ligar",
+    "stop": "Desligar",
+    "restart": "Reiniciar",
+    "cpu": "CPU",
+    "ram": "RAM",
+    "sendCommand": "Enviar comando",
+    "runtime": "Linguagem",
+    "entryFile": "Arquivo de inicialização",
+    "envVars": "Variáveis de ambiente",
+    "autoRestart": "Reinício automático",
+    "upload": "Enviar arquivos",
+    "createFolder": "Nova pasta",
+    "save": "Salvar"
+  },
+  "admin": {
+    "title": "Administração",
+    "users": "Usuários",
+    "servers": "Servidores globais",
+    "logs": "Registros do sistema",
+    "suspend": "Suspender",
+    "unsuspend": "Reativar",
+    "limits": "Limites",
+    "role": "Função"
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "create": "Criar",
+    "delete": "Excluir",
+    "loading": "Carregando...",
+    "language": "Idioma"
+  }
+}
